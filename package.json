@@ -1,9 +1,14 @@
 {
   "name": "sqlite3-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Promisify all `node-sqlite3` APIs. Also, with TypeScript type definitions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src",
+    "tsconfig.json"
+  ],
   "scripts": {
     "prepack": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
