@@ -23,6 +23,7 @@ function _promisifyAllFunctions (object: any) {
       const func = object[key]
       if (typeof func === 'function') {
         object[`${key}Async`] = promisify(func)
+        console.log(`${key}Async`)
       }
     }
   }

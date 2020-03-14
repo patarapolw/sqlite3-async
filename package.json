@@ -1,6 +1,6 @@
 {
   "name": "sqlite3-async",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Promisify all `node-sqlite3` APIs. Also, with TypeScript type definitions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -33,7 +33,8 @@
   },
   "devDependencies": {
     "@types/bluebird": "^3.5.30",
-    "@types/node": "^13.9.1"
+    "@types/node": "^13.9.1",
+    "sqlite3": "^4.1.1"
   },
   "peerDependencies": {
     "bluebird": "^3.7.2",
