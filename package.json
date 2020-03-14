@@ -1,6 +1,6 @@
 {
   "name": "sqlite3-async",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Promisify all `node-sqlite3` APIs. Also, with TypeScript type definitions.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
